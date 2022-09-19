@@ -1,0 +1,12 @@
+$color--aqua: aqua;
+$color--white: #fff;
+
+body{
+    background-color: $color--aqua;
+    h1{
+        color: $color--white;
+        font-size: 40px;
+        font-weight: bold;
+        display: flex;
+    }
+}
