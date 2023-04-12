@@ -7,7 +7,7 @@ module.exports = {
     // vue
     "plugin:vue/vue3-strongly-recommended",
     // js
-    "eslint:recommended"
+    "eslint:recommended",
   ],
   parserOptions: {
     parser: "babel-eslint",
@@ -30,6 +30,12 @@ module.exports = {
         },
         svg: "always",
         math: "always",
+      },
+    ],
+    "vue/multi-word-component-names": [
+      "error",
+      {
+        ignores: ["Fruit"],
       },
     ],
   },
